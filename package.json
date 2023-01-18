@@ -1,0 +1,34 @@
+{
+  "name": "@kartjim/queue",
+  "version": "1.0.0",
+  "description": "Queue implementation in JavaScript (based on Array)",
+  "main": "index.js",
+  "repository": "git@github.com:can-dy-jack/queue.git",
+  "bugs": {
+    "url": "https://github.com/can-dy-jack/queue/issues"
+  },
+  "homepage": "https://github.com/can-dy-jack/queue#readme",
+  "author": "can-dy-jack <jjack_chen3@163.com>",
+  "license": "MIT",
+  "keywords": [
+    "queue",
+    "data-structure",
+    "JavaScript",
+    "implementation"
+  ],
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.32.0",
+    "grunt": "^1.5.3",
+    "grunt-eslint": "^24.0.1",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-mocha-test": "^0.13.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "coverage": "grunt coverage",
+    "lint": "grunt lint",
+    "test": "grunt test"
+  }
+}

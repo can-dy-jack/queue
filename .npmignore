@@ -1,0 +1,7 @@
+.git*
+.gitignore
+.eslintrc
+gruntfile.js
+coverage/
+node_modules/
+queue.test.js
